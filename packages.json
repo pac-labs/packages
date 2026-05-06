@@ -1,7 +1,7 @@
 {
   "schema": "pac-packages.v1",
   "version": "1.0.99",
-  "generated_at": "2026-05-06T07:14:23.791966+00:00",
+  "generated_at": "2026-05-06T08:32:03.969195+00:00",
   "repository": "https://github.com/pac-labs/packages",
   "controller_repository": "https://github.com/pac-labs/controller",
   "package_roots": [
@@ -27,7 +27,8 @@
       "tags": [
         "pac",
         "pi.dev"
-      ]
+      ],
+      "content_hash": "sha256:968a18ee02c7c0d301baf8dfd2382f1ac11b73269fbfe58114769c203290acaa"
     },
     {
       "id": "pac-endpoint",
@@ -43,7 +44,8 @@
       "tags": [
         "pac",
         "pi.dev"
-      ]
+      ],
+      "content_hash": "sha256:a77066c9e56be27ddd29dfb194f6ecc7a9d16ba8bc90c7b0e8a7f3042f08e17b"
     },
     {
       "id": "pac-endpoint-runner",
@@ -59,7 +61,8 @@
       "tags": [
         "pac",
         "pi.dev"
-      ]
+      ],
+      "content_hash": "sha256:436f2e932bd4ff64743f46c1516cb664a2c30a72558ab9171dd507ae26987916"
     },
     {
       "id": "zed-binary",
@@ -75,7 +78,8 @@
       "tags": [
         "pac",
         "pi.dev"
-      ]
+      ],
+      "content_hash": "sha256:72e383cc3073688205f0fd2d3c40d0e1e215f6e695375b3068f86e36728c4c95"
     },
     {
       "id": "mcp-builder",
@@ -91,7 +95,8 @@
       "tags": [
         "pac",
         "pi.dev"
-      ]
+      ],
+      "content_hash": "sha256:97d6954b90aa1f26ea5d4d549fb1c77f828e667344c23e5482582deb377dd01d"
     },
     {
       "id": "pi-dev-runtime",
@@ -107,7 +112,8 @@
       "tags": [
         "pac",
         "pi.dev"
-      ]
+      ],
+      "content_hash": "sha256:5e8bd46d5e7ad4d6b9205875d68e7918ed51a2818de3a0b96a6cfb0ac8e34daa"
     },
     {
       "id": "docs",
@@ -123,7 +129,8 @@
       "tags": [
         "pac",
         "pi.dev"
-      ]
+      ],
+      "content_hash": "sha256:a5372977a51a7d251e9d16cb27fa7a89c280ffe9324b4386aba57436165a8306"
     },
     {
       "id": "scripts",
@@ -139,7 +146,8 @@
       "tags": [
         "pac",
         "pi.dev"
-      ]
+      ],
+      "content_hash": "sha256:01315ae36c44942e372d7c420939a8dea5123b662a43bef75915f6d9fe954524"
     }
   ]
 }
