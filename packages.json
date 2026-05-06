@@ -1,7 +1,7 @@
 {
   "schema": "pac-packages.v1",
-  "version": "1.0.97",
-  "generated_at": "2026-05-05T22:42:22.086242+00:00",
+  "version": "1.0.98",
+  "generated_at": "2026-05-06T07:14:15.233661+00:00",
   "repository": "https://github.com/pac-labs/packages",
   "controller_repository": "https://github.com/pac-labs/controller",
   "package_roots": [
@@ -11,6 +11,135 @@
     "scripts",
     "docs"
   ],
-  "component_count": 0,
-  "components": []
+  "component_count": 8,
+  "components": [
+    {
+      "id": "pac-agent",
+      "title": "PAC Wrapper",
+      "description": "PAC-side wrapper around the pi.dev runtime for controller and endpoint integration.",
+      "kind": "binary",
+      "version": "1.0.98",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "binaries/pac-agent",
+      "tags": [
+        "pac",
+        "pi.dev"
+      ]
+    },
+    {
+      "id": "pac-endpoint",
+      "title": "PAC Endpoint Wrapper",
+      "description": "Endpoint-side wrapper binary that connects host capabilities and workspaces to PAC.",
+      "kind": "binary",
+      "version": "1.0.98",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "binaries/pac-endpoint",
+      "tags": [
+        "pac",
+        "pi.dev"
+      ]
+    },
+    {
+      "id": "pac-endpoint-runner",
+      "title": "PAC Endpoint Runner",
+      "description": "Small runner used to execute endpoint tasks inside approved workspaces.",
+      "kind": "binary",
+      "version": "1.0.98",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "binaries/pac-endpoint-runner",
+      "tags": [
+        "pac",
+        "pi.dev"
+      ]
+    },
+    {
+      "id": "zed-binary",
+      "title": "Zed MCP Binary",
+      "description": "Packaged MCP helper binary for editor integration.",
+      "kind": "binary",
+      "version": "1.0.98",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "binaries/zed-binary",
+      "tags": [
+        "pac",
+        "pi.dev"
+      ]
+    },
+    {
+      "id": "mcp-builder",
+      "title": "MCP Builder Container",
+      "description": "Containerized builder source for MCP/client binaries.",
+      "kind": "container",
+      "version": "1.0.98",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "containers/mcp-builder",
+      "tags": [
+        "pac",
+        "pi.dev"
+      ]
+    },
+    {
+      "id": "pi-dev-runtime",
+      "title": "pi.dev Runtime Container",
+      "description": "Container source for the pi.dev runtime used by controller and endpoints.",
+      "kind": "container",
+      "version": "1.0.98",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "containers/pi-agent-harness",
+      "tags": [
+        "pac",
+        "pi.dev"
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "PAC Documentation",
+      "description": "Design, runtime, endpoint, and integration documentation shipped with PAC.",
+      "kind": "documentation",
+      "version": "1.0.98",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "docs",
+      "tags": [
+        "pac",
+        "pi.dev"
+      ]
+    },
+    {
+      "id": "scripts",
+      "title": "PAC Scripts",
+      "description": "Operational and build scripts used by the controller and wrappers.",
+      "kind": "script-collection",
+      "version": "1.0.98",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "scripts",
+      "tags": [
+        "pac",
+        "pi.dev"
+      ]
+    }
+  ]
 }
