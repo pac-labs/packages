@@ -1,7 +1,7 @@
 {
   "schema": "pac-packages.v1",
   "version": "1.0.111",
-  "generated_at": "2026-05-14T21:30:52.212731+00:00",
+  "generated_at": "2026-05-14T21:53:38.804302+00:00",
   "repository": "https://github.com/pac-labs/packages",
   "controller_repository": "https://github.com/pac-labs/controller",
   "package_roots": [
@@ -11,7 +11,7 @@
     "scripts",
     "docs"
   ],
-  "component_count": 8,
+  "component_count": 15,
   "components": [
     {
       "id": "pac-agent",
@@ -65,6 +65,24 @@
       "content_hash": "sha256:460018ce6b748cfd380b3479b36f9a67a37cd6e32373c5186420e19916b05652"
     },
     {
+      "id": "pacctl",
+      "title": "PAC Control CLI",
+      "description": "CLI binary for IDEs, endpoints, and containers to resolve PAC context, config, variables, secrets, and PAC RAM.",
+      "kind": "binary",
+      "version": "1.0.0",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "binaries/pacctl",
+      "tags": [
+        "pac",
+        "cli",
+        "ide"
+      ],
+      "content_hash": "sha256:465743d91a7023eff5a019003f9cce973e9315e2376b377e83cf02c8a849e8eb"
+    },
+    {
       "id": "zed-binary",
       "title": "Zed MCP Binary",
       "description": "Packaged MCP helper binary for editor integration.",
@@ -80,6 +98,82 @@
         "pi.dev"
       ],
       "content_hash": "sha256:989568db65e16f4d7ec9bdeab96c8896bcfd36b81d964b68af4e1d247f715a44"
+    },
+    {
+      "id": "c-dev-container",
+      "title": "C Development Container",
+      "description": "C and C++ development environment with GCC, GDB, CMake, and code search tools for native builds and debugging.",
+      "kind": "container",
+      "version": "1.0.0",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "containers/c-dev",
+      "tags": [
+        "pac",
+        "workspace",
+        "development"
+      ],
+      "is_workspace_container": true,
+      "content_hash": "sha256:c926cb5ba7b003edd3d1b9847b2cdbdbbcc5a63ab490bdca4e05316afebdfe54"
+    },
+    {
+      "id": "docs-search-container",
+      "title": "Documentation Search Container",
+      "description": "Repository clone and ripgrep-oriented container for customer documentation, source analysis, and doc-reader style sessions.",
+      "kind": "container",
+      "version": "1.0.0",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "containers/docs-search",
+      "tags": [
+        "pac",
+        "workspace",
+        "documentation"
+      ],
+      "is_workspace_container": true,
+      "content_hash": "sha256:7611fb6e6910982090df2f437ad97556b375ac60ba8c7a6cfe09a03a465bb086"
+    },
+    {
+      "id": "dotnet-dev-container",
+      "title": ".NET Development Container",
+      "description": ".NET SDK environment with the dotnet CLI and code search tools for C# and broader .NET workloads.",
+      "kind": "container",
+      "version": "1.0.0",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "containers/dotnet-dev",
+      "tags": [
+        "pac",
+        "workspace",
+        "development"
+      ],
+      "is_workspace_container": true,
+      "content_hash": "sha256:0d7ffd914dae3337505c3b817eb975bfaf64722737bc4c74467f8fb7de674b0d"
+    },
+    {
+      "id": "go-dev-container",
+      "title": "Go Development Container",
+      "description": "Go development environment with the Go toolchain, formatting, and code search tools for building and reviewing Go projects.",
+      "kind": "container",
+      "version": "1.0.0",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "containers/go-dev",
+      "tags": [
+        "pac",
+        "workspace",
+        "development"
+      ],
+      "is_workspace_container": true,
+      "content_hash": "sha256:1a6128a5108ddf9dec4102eb31c81d2cf6719cca4f44c1a799b6a7a9be221bfc"
     },
     {
       "id": "mcp-builder",
@@ -99,6 +193,25 @@
       "content_hash": "sha256:97d6954b90aa1f26ea5d4d549fb1c77f828e667344c23e5482582deb377dd01d"
     },
     {
+      "id": "node-dev-container",
+      "title": "Node.js Development Container",
+      "description": "Node.js development environment with npm, pnpm, TypeScript tooling, and code search tools for JavaScript and TypeScript projects.",
+      "kind": "container",
+      "version": "1.0.0",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "containers/node-dev",
+      "tags": [
+        "pac",
+        "workspace",
+        "development"
+      ],
+      "is_workspace_container": true,
+      "content_hash": "sha256:71f150c9289a5b6d690802b330543f5c55e5cd0996d99f2ff53bf00040e108bd"
+    },
+    {
       "id": "pi-dev-runtime",
       "title": "pi.dev Runtime Container",
       "description": "Container source for the pi.dev runtime used by controller and endpoints.",
@@ -116,6 +229,25 @@
       "content_hash": "sha256:5e8bd46d5e7ad4d6b9205875d68e7918ed51a2818de3a0b96a6cfb0ac8e34daa"
     },
     {
+      "id": "python-dev-container",
+      "title": "Python Development Container",
+      "description": "Python 3 development environment with uv, pytest, and code search tools for writing, testing, and reviewing Python projects.",
+      "kind": "container",
+      "version": "1.0.0",
+      "maintainers": [
+        "pac-labs"
+      ],
+      "repository": "https://github.com/pac-labs/packages",
+      "source_path": "containers/python-dev",
+      "tags": [
+        "pac",
+        "workspace",
+        "development"
+      ],
+      "is_workspace_container": true,
+      "content_hash": "sha256:869c259b33f8bb7bc06dcfb0294b682f120f309d9a0ea0325b0da39b0d5445e0"
+    },
+    {
       "id": "docs",
       "title": "PAC Documentation",
       "description": "Design, runtime, endpoint, and integration documentation shipped with PAC.",
@@ -130,7 +262,7 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:c1244ef73fe61f2ba02c8a9a810ec299b722237c58242ba806c7459272ee1d4c"
+      "content_hash": "sha256:8f0a90cfb72a66bedbeea61035dc8a8fe036f3c4976cafa06350033c9163700a"
     },
     {
       "id": "scripts",
