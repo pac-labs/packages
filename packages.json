@@ -1,7 +1,7 @@
 {
   "schema": "pac-packages.v1",
   "version": "1.0.169",
-  "generated_at": "2026-05-16T20:53:49.280453+00:00",
+  "generated_at": "2026-05-16T21:02:40.453009+00:00",
   "repository": "https://github.com/pac-labs/packages",
   "controller_repository": "https://github.com/pac-labs/controller",
   "package_roots": [
@@ -80,7 +80,7 @@
         "cli",
         "ide"
       ],
-      "content_hash": "sha256:465743d91a7023eff5a019003f9cce973e9315e2376b377e83cf02c8a849e8eb"
+      "content_hash": "sha256:b49bdf68bda8d843622c40b69e44b017687edec7297267ac3535508fdde959d0"
     },
     {
       "id": "zed-binary",
