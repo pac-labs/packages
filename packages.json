@@ -1,7 +1,7 @@
 {
   "schema": "pac-packages.v1",
   "version": "1.0.190",
-  "generated_at": "2026-05-17T10:30:42.165297+00:00",
+  "generated_at": "2026-05-17T10:51:45.493438+00:00",
   "repository": "https://github.com/pac-labs/packages",
   "controller_repository": "https://github.com/pac-labs/controller",
   "package_roots": [
@@ -28,7 +28,7 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:cbe414e76be89adc8a5a43181180778108eca50666691715ef896459d5f14603"
+      "content_hash": "sha256:b9e9220b5d5836d196edf8e3d8da3218b79b673d3c31f3a55489c9b352f228f3"
     },
     {
       "id": "pac-endpoint",
@@ -45,7 +45,7 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:59efc1fc52662172de0ac48221311bb801b3e319418e5cb42dc6afb666ae2136"
+      "content_hash": "sha256:1639ab21c5e3f020ec0ca50b324cebd8e31076de7d9d4d80b494f22f9a56b493"
     },
     {
       "id": "pac-endpoint-runner",
@@ -62,7 +62,7 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:460018ce6b748cfd380b3479b36f9a67a37cd6e32373c5186420e19916b05652"
+      "content_hash": "sha256:2744c9f93cbfc1bb26d651694d9027e14f9ccbe5c0c83f7790933fcb9f6fa51d"
     },
     {
       "id": "pacctl",
