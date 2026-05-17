@@ -1,7 +1,7 @@
 {
   "schema": "pac-packages.v1",
   "version": "1.0.208",
-  "generated_at": "2026-05-17T19:27:56.562246+00:00",
+  "generated_at": "2026-05-17T19:53:35.400798+00:00",
   "repository": "https://github.com/pac-labs/packages",
   "controller_repository": "https://github.com/pac-labs/controller",
   "package_roots": [
@@ -45,7 +45,7 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:1639ab21c5e3f020ec0ca50b324cebd8e31076de7d9d4d80b494f22f9a56b493"
+      "content_hash": "sha256:1e3445fb7ab49c6830f1e2cc61dd673508eb43c37f0117ff233b4b3798c47a54"
     },
     {
       "id": "pac-endpoint-runner",
