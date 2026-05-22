@@ -1,7 +1,7 @@
 {
   "schema": "pac-packages.v1",
   "version": "1.0.289",
-  "generated_at": "2026-05-22T22:43:36.574572+00:00",
+  "generated_at": "2026-05-22T23:06:11.473008+00:00",
   "repository": "https://github.com/pac-labs/packages",
   "controller_repository": "https://github.com/pac-labs/controller",
   "package_roots": [
@@ -262,7 +262,7 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:0a0385eea59720ab6365d3e24fd9b65dd2c9903c397f64dffba0b94af383e574"
+      "content_hash": "sha256:1b958e283cd19610952c348d6549182130cec47877d8b341dd7ee4da88ed1fe0"
     },
     {
       "id": "scripts",
