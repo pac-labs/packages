@@ -1,7 +1,7 @@
 {
   "schema": "pac-packages.v1",
-  "version": "1.0.287",
-  "generated_at": "2026-05-22T21:55:01.564561+00:00",
+  "version": "1.0.288",
+  "generated_at": "2026-05-22T21:56:27.822310+00:00",
   "repository": "https://github.com/pac-labs/packages",
   "controller_repository": "https://github.com/pac-labs/controller",
   "package_roots": [
