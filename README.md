@@ -10,4 +10,4 @@ Package roots:
 - `scripts/`
 - `docs/`
 
-Each component can include `pac-component.json` for title, description, maintainers, version, and package metadata.
+Each component can include `pac-component.json` for title, description, maintainers, version, and package metadata. Component versions are owned by the component source and are not automatically bumped to the PAC controller release version.

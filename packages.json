@@ -1,7 +1,9 @@
 {
   "schema": "pac-packages.v1",
   "version": "1.0.380",
-  "generated_at": "2026-05-27T18:52:17.775728+00:00",
+  "pac_release_version": "1.0.380",
+  "component_version_policy": "component-owned",
+  "generated_at": "2026-05-29T22:39:00.254019+00:00",
   "repository": "https://github.com/pac-labs/packages",
   "controller_repository": "https://github.com/pac-labs/controller",
   "package_roots": [
@@ -28,7 +30,8 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:b9e9220b5d5836d196edf8e3d8da3218b79b673d3c31f3a55489c9b352f228f3"
+      "content_hash": "sha256:b9e9220b5d5836d196edf8e3d8da3218b79b673d3c31f3a55489c9b352f228f3",
+      "version_policy": "component-owned"
     },
     {
       "id": "pac-endpoint",
@@ -45,7 +48,8 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:b4a3315c84d098bd3d3a9ef1bc8ec42a97817412aa74e1428bd174d94de44765"
+      "content_hash": "sha256:584d494592d3996f6d1e6e7975f0ee6007138668662e7d6bd0cd3b28c05e3c02",
+      "version_policy": "component-owned"
     },
     {
       "id": "pac-endpoint-runner",
@@ -62,7 +66,8 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:2744c9f93cbfc1bb26d651694d9027e14f9ccbe5c0c83f7790933fcb9f6fa51d"
+      "content_hash": "sha256:2744c9f93cbfc1bb26d651694d9027e14f9ccbe5c0c83f7790933fcb9f6fa51d",
+      "version_policy": "component-owned"
     },
     {
       "id": "pacctl",
@@ -80,7 +85,8 @@
         "cli",
         "ide"
       ],
-      "content_hash": "sha256:b49bdf68bda8d843622c40b69e44b017687edec7297267ac3535508fdde959d0"
+      "content_hash": "sha256:5c091b59f8377ddd650d29db4e3fd07dfa66e3c15857d59b6ad706140ec64c0b",
+      "version_policy": "component-owned"
     },
     {
       "id": "zed-binary",
@@ -97,7 +103,8 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:384765805e59a13ae7341905d5ab5f79440512a6eaa76f04d41c1f6a386786e1"
+      "content_hash": "sha256:384765805e59a13ae7341905d5ab5f79440512a6eaa76f04d41c1f6a386786e1",
+      "version_policy": "component-owned"
     },
     {
       "id": "c-dev-container",
@@ -116,7 +123,8 @@
         "development"
       ],
       "is_workspace_container": true,
-      "content_hash": "sha256:c926cb5ba7b003edd3d1b9847b2cdbdbbcc5a63ab490bdca4e05316afebdfe54"
+      "content_hash": "sha256:c926cb5ba7b003edd3d1b9847b2cdbdbbcc5a63ab490bdca4e05316afebdfe54",
+      "version_policy": "component-owned"
     },
     {
       "id": "docs-search-container",
@@ -135,7 +143,8 @@
         "documentation"
       ],
       "is_workspace_container": true,
-      "content_hash": "sha256:7611fb6e6910982090df2f437ad97556b375ac60ba8c7a6cfe09a03a465bb086"
+      "content_hash": "sha256:7611fb6e6910982090df2f437ad97556b375ac60ba8c7a6cfe09a03a465bb086",
+      "version_policy": "component-owned"
     },
     {
       "id": "dotnet-dev-container",
@@ -154,7 +163,8 @@
         "development"
       ],
       "is_workspace_container": true,
-      "content_hash": "sha256:0d7ffd914dae3337505c3b817eb975bfaf64722737bc4c74467f8fb7de674b0d"
+      "content_hash": "sha256:0d7ffd914dae3337505c3b817eb975bfaf64722737bc4c74467f8fb7de674b0d",
+      "version_policy": "component-owned"
     },
     {
       "id": "go-dev-container",
@@ -173,7 +183,8 @@
         "development"
       ],
       "is_workspace_container": true,
-      "content_hash": "sha256:1a6128a5108ddf9dec4102eb31c81d2cf6719cca4f44c1a799b6a7a9be221bfc"
+      "content_hash": "sha256:1a6128a5108ddf9dec4102eb31c81d2cf6719cca4f44c1a799b6a7a9be221bfc",
+      "version_policy": "component-owned"
     },
     {
       "id": "mcp-builder",
@@ -190,7 +201,8 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:97d6954b90aa1f26ea5d4d549fb1c77f828e667344c23e5482582deb377dd01d"
+      "content_hash": "sha256:97d6954b90aa1f26ea5d4d549fb1c77f828e667344c23e5482582deb377dd01d",
+      "version_policy": "component-owned"
     },
     {
       "id": "node-dev-container",
@@ -209,7 +221,8 @@
         "development"
       ],
       "is_workspace_container": true,
-      "content_hash": "sha256:71f150c9289a5b6d690802b330543f5c55e5cd0996d99f2ff53bf00040e108bd"
+      "content_hash": "sha256:71f150c9289a5b6d690802b330543f5c55e5cd0996d99f2ff53bf00040e108bd",
+      "version_policy": "component-owned"
     },
     {
       "id": "pi-dev-runtime",
@@ -226,7 +239,8 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:1e8fa7054787f6f9ccfbe833e52a22d5e9575458e59a01c7a99cca5fe9643071"
+      "content_hash": "sha256:4e5ed1786df44214e60d46fcb7eafd0400c9a059f5b95abf665dc2f5366faac3",
+      "version_policy": "component-owned"
     },
     {
       "id": "python-dev-container",
@@ -245,14 +259,15 @@
         "development"
       ],
       "is_workspace_container": true,
-      "content_hash": "sha256:869c259b33f8bb7bc06dcfb0294b682f120f309d9a0ea0325b0da39b0d5445e0"
+      "content_hash": "sha256:869c259b33f8bb7bc06dcfb0294b682f120f309d9a0ea0325b0da39b0d5445e0",
+      "version_policy": "component-owned"
     },
     {
       "id": "docs",
       "title": "PAC Documentation",
       "description": "Design, runtime, endpoint, and integration documentation shipped with PAC.",
       "kind": "documentation",
-      "version": "1.0.98",
+      "version": "1.0.99",
       "maintainers": [
         "pac-labs"
       ],
@@ -262,14 +277,15 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:c51bc4fe821209ec506e590cca3f1c9530f3535d0076d866e20eecc79e05d6d7"
+      "content_hash": "sha256:e6b00264887ce69490a6ee358611ab670520ead680041b8b1dbc0f2e5772162a",
+      "version_policy": "component-owned"
     },
     {
       "id": "scripts",
       "title": "PAC Scripts",
       "description": "Operational and build scripts used by the controller and wrappers.",
       "kind": "script-collection",
-      "version": "1.0.98",
+      "version": "1.0.99",
       "maintainers": [
         "pac-labs"
       ],
@@ -279,7 +295,8 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:e9e1202c4a3aec52a68652713b84f0e4ec05295f89f09be2b08d7efef26a1c91"
+      "content_hash": "sha256:a96793291dc663ab07dad3204d6336d1c4102c1b76d257604abaa6a06cd5594e",
+      "version_policy": "component-owned"
     }
   ]
 }
