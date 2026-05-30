@@ -3,7 +3,7 @@
   "version": "1.0.382",
   "pac_release_version": "1.0.382",
   "component_version_policy": "component-owned",
-  "generated_at": "2026-05-30T08:31:08.023273+00:00",
+  "generated_at": "2026-05-30T11:06:31.750117+00:00",
   "repository": "https://github.com/pac-labs/packages",
   "controller_repository": "https://github.com/pac-labs/controller",
   "package_roots": [
@@ -277,7 +277,7 @@
         "pac",
         "pi.dev"
       ],
-      "content_hash": "sha256:6568ef54ea94c5c5428ea43a618993292a5f571e10904bfc820477a4cf714820",
+      "content_hash": "sha256:1694ab694fbc082ba51e548621ba48122367e2df318b675c5c3559794f986ef5",
       "version_policy": "component-owned"
     },
     {
