@@ -1,9 +1,9 @@
 {
   "schema": "pac-packages.v1",
-  "version": "1.0.382",
-  "pac_release_version": "1.0.382",
+  "version": "1.0.383",
+  "pac_release_version": "1.0.383",
   "component_version_policy": "component-owned",
-  "generated_at": "2026-05-30T11:06:31.750117+00:00",
+  "generated_at": "2026-05-30T11:07:55.300584+00:00",
   "repository": "https://github.com/pac-labs/packages",
   "controller_repository": "https://github.com/pac-labs/controller",
   "package_roots": [
